@@ -1,7 +1,10 @@
 import React from 'react';
 import "./Product.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
     const {id,user_img,username,image,title}=props.product
+   const handleAddToCard=props.handleAddToCard
     console.log(props.product)
     return (
         <div className='product'>
@@ -19,7 +22,7 @@ const Product = (props) => {
                 </div>
 
                 <div className='right-side'>
-                    <p>10 min read</p>
+                    <p>10 min read <FontAwesomeIcon onClick={()=>handleAddToCard(props.product.title)} icon={faBookmark} /> </p>  
                 </div>
             </div>
            

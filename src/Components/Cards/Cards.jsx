@@ -9,11 +9,18 @@ const Cards = () => {
         .then(res =>res.json())
         .then(data =>setProducts(data))
     },[])
+    const handleAddToCard=(product)=>{
+        console.log(product)
+    }
     return (
         <div>
          
             {
-                products.map(product=><Product product={product} key={product.id}></Product>)
+                products.map(product=><Product 
+                    product={product}
+                     key={product.id}
+                     handleAddToCard={handleAddToCard}
+                ></Product>)
             }
         </div>
     );

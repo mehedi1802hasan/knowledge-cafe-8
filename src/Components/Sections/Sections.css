@@ -6,7 +6,7 @@
     height:40px;
     margin-top: 20px;
 }
-.section{
+.section-left{
     display: grid;
     grid-template-columns: 3fr 2fr;
     
@@ -14,11 +14,24 @@
 .cards{
     width: 900px;
 }
-.click-Summary{
-    display: flex;
-    justify-content: center;
+.section-right{
+ 
     position:sticky;
     top:0;
     height: 400px;
    border:1px solid teal;
+}
+.spent-time{
+    background: rgba(96, 71, 236, 0.1);
+border: 1px solid #6047EC;
+border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:rgb(62, 62, 189)
+}
+.bookmark{
+    background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+padding: 10px;
 }
