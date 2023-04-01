@@ -11,8 +11,8 @@ const Question = () => {
 3.Props are used to configure a component and can be thought of as its "external" API, while state is used to manage the internal state of a component, such as user input or the current page.</p>
             </div>
             <div style={{backgroundColor:"orange",color:'black'}}>
-            <h3>Question:2==How does work useState</h3>
-            <p>Answer:useState is a hook in React that allows functional components to manage state. It is called with an initial value for the state variable and returns an array with the current value of the state variable and a function to update it. When the state variable needs to be updated, the update function is called with the new value, which triggers a re-render with the new state value.</p>
+            <h3>Question:2==How does work useState?</h3>
+            <p>Answer: useState is a hook in React that allows functional components to manage state. It is called with an initial value for the state variable and returns an array with the current value of the state variable and a function to update it. When the state variable needs to be updated, the update function is called with the new value, which triggers a re-render with the new state value.</p>
             </div>
             <div style={{backgroundColor:"green",color:'black'}}>
             <h3>Question:3==which type of work doing useState without Data loading?</h3>
@@ -21,7 +21,7 @@ const Question = () => {
             </div>
             <div style={{backgroundColor:"yellow",color:'black'}}>
             <h3>Question:4::How does react work?</h3>
-            <p>Answer:React is a JavaScript library for building user interfaces that works by allowing developers to create reusable components that are composed together to build complex UIs. It uses a virtual DOM to efficiently update the UI when changes are made and supports declarative programming, making it easier to reason about and maintain code.
+            <p>Answer:-React is a JavaScript library for building user interfaces that works by allowing developers to create reusable components that are composed together to build complex UIs. It uses a virtual DOM to efficiently update the UI when changes are made and supports declarative programming, making it easier to reason about and maintain code.
             </p>
             </div>
             </div>
