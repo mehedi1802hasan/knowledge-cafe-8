@@ -46,7 +46,7 @@ const Sections = () => {
       
         </div>
            <div className='section-right'>
-            <h3 className='spent-time'>Spent time on read : {readtime}  min</h3>
+            <h3 className='spent-time'>Spent time on read: {readtime}  min</h3>
             
             <div className='bookmark' >
                 <h3> Bookmarked Blogs{blogs.length}</h3>

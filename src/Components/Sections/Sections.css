@@ -8,10 +8,7 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
-.section-left{
-  
-    
-}
+
 .cards{
     width: 900px;
 }
@@ -19,7 +16,7 @@
  
    
     top:0;
-    height:530px;
+    height:600px;
    border:1px solid teal;
 }
 .spent-time{
