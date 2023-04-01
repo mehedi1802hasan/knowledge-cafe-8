@@ -39,7 +39,7 @@ const Sections = () => {
             <div className='bookmark' >
                 <h3> Bookmarked Blogs{blogs.length}</h3>
                 {
-                    blogs.map(blog=><h2>{blog.title}</h2>)
+                    blogs.map(blog=><h2 className='title'>{blog.title}</h2>)
                 }
 
                 

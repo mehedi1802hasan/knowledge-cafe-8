@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
     const {id,user_img,username,image,title}=props.product
-   const handleAddToCard=props.handleAddToCard
+   const handleAddToCard=props.handleAddToCard;
+   const handleAddToTime=props.handleAddToTime;
     console.log(props.product)
     return (
         <div className='product'>
@@ -28,7 +29,7 @@ const Product = (props) => {
            
             <h2>{title}</h2>
             <i>#beginners #programming</i>
-            <h4><a href="">Mark as read</a></h4>
+            <h4><a href="">Mark as read </a></h4>
           
            </div>
 

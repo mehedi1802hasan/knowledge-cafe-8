@@ -2,7 +2,7 @@
     {
       "id": 1,
       "username": "Mr. Raju",
-      "time":5,
+      "_time":5,
       "image": "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title":"How to get your first job as a self-taught programmer",
       "user_img":"https://images.pexels.com/photos/3771089/pexels-photo-3771089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "username": "Mr. Raju",
-      "time":6,
+      "_timeme":6,
       "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title":"Mehedi hasfnasdf ",
       "user_img":"https://images.pexels.com/photos/5905497/pexels-photo-5905497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "username": "Mr. Raju",
-      "time":4,
+      "_time":4,
       "image": "https://images.pexels.com/photos/5474295/pexels-photo-5474295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title":" first job as a self-taught programmer",
       "user_img":"https://images.pexels.com/photos/5561159/pexels-photo-5561159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "username": "Mr. Raju",
-      "time":8,
+      "_time":8,
       "image": "https://images.pexels.com/photos/4709286/pexels-photo-4709286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title":"jarif jihabbnnbndf",
       "user_img":"https://images.pexels.com/photos/6272947/pexels-photo-6272947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
