@@ -1,6 +1,6 @@
 .sections{
    
-    width:1200px;
+    max-width:1200px;
     margin: 0 auto;
     padding: 10px;
     height:full;
@@ -17,7 +17,7 @@
 }
 .section-right{
  
-    position:sticky;
+   
     top:0;
     height:530px;
    border:1px solid teal;
@@ -42,9 +42,7 @@ padding: 10px;
     color:black;
     padding: 5px;
 }
-@media screen and (max-width:576) {
-    .sections{
-        display: grid;
-       grid-template-columns:1fr ;
-    }
+.btn{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }

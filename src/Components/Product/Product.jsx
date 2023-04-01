@@ -28,8 +28,8 @@ const Product = (props) => {
             </div>
            
             <h2>{title}</h2>
-            <i>#beginners #programming</i>
-            <button onClick={()=>handleTime(props.product.time)}>Mark as read</button>
+            <i>#beginners #programming</i> <br />
+            <button className='btn' onClick={()=>handleTime(props.product.time)}>Mark as read</button>
           
            </div>
 
