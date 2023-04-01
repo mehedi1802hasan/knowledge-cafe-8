@@ -22,7 +22,7 @@ const Product = (props) => {
                 </div>
 
                 <div className='right-side'>
-                    <p>10 min read <FontAwesomeIcon onClick={()=>handleAddToCard(props.product.title)} icon={faBookmark} /> </p>  
+                    <p>10 min read <FontAwesomeIcon onClick={()=>handleAddToCard(props.product)} icon={faBookmark} /> </p>  
                 </div>
             </div>
            
