@@ -15,7 +15,7 @@ const Question = () => {
             <p>Answer: useState is a hook in React that allows functional components to manage state. It is called with an initial value for the state variable and returns an array with the current value of the state variable and a function to update it. When the state variable needs to be updated, the update function is called with the new value, which triggers a re-render with the new state value.</p>
             </div>
             <div style={{backgroundColor:"green",color:'black'}}>
-            <h3>Question:3==which type of work doing useState without Data loading?</h3>
+            <h3>Question:3-which type of work doing useState without Data loading?</h3>
             <p>Anser: It is a general-purpose hook for managing state in functional components and can be used to manage any kind of state that needs to change over time, such as toggling a boolean value, storing user input, tracking the current state of an application, storing selected values, or storing the current position of a scroll bar or slider.
            .</p>
             </div>
