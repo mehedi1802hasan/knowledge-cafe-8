@@ -5,8 +5,8 @@ const Question = () => {
         <div className='question'>
             <div>
             <div style={{backgroundColor:"teal",color:'yellow'}}>
-            <h3>Question:1- Difference in Props & state</h3>
-            <p>Answer:1.Props are passed down from a parent component to a child component, while state is managed within a component itself.
+            <h3>Question:1- Difference in Props & state?</h3>
+            <p>Answer:1--Props are passed down from a parent component to a child component, while state is managed within a component itself.
 2.Props are read-only and cannot be changed by the child component that receives them, while state can be changed using the setState() method.
 3.Props are used to configure a component and can be thought of as its "external" API, while state is used to manage the internal state of a component, such as user input or the current page.</p>
             </div>
