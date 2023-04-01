@@ -42,3 +42,9 @@ padding: 10px;
     color:black;
     padding: 5px;
 }
+@media screen and (max-width:576) {
+    .sections{
+        display: grid;
+       grid-template-columns:1fr ;
+    }
+}

@@ -5,7 +5,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
     const {id,user_img,username,image,title}=props.product
    const handleAddToCard=props.handleAddToCard;
-   const handleAddToTime=props.handleAddToTime;
+   const handleTime=props.handleTime;
     console.log(props.product)
     return (
         <div className='product'>
@@ -23,13 +23,13 @@ const Product = (props) => {
                 </div>
 
                 <div className='right-side'>
-                    <p>10 min read <FontAwesomeIcon onClick={()=>handleAddToCard(props.product)} icon={faBookmark} /> </p>  
+                    <p>{props.product.readTime} min read <FontAwesomeIcon onClick={()=>handleAddToCard(props.product)} icon={faBookmark} /> </p>  
                 </div>
             </div>
            
             <h2>{title}</h2>
             <i>#beginners #programming</i>
-            <h4><a href="">Mark as read </a></h4>
+            <button onClick={()=>handleTime(props.product.time)}>Mark as read</button>
           
            </div>
 
